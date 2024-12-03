@@ -1,0 +1,6 @@
+@Farkas_Zoltán_bckend_HostAddress = http://localhost:5286
+
+GET {{Farkas_Zoltán_bckend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

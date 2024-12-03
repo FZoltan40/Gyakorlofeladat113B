@@ -1,0 +1,135 @@
+[
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.ActorsController",
+    "Method": "GetCountOfActors",
+    "RelativePath": "api/actors/feladat12",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.ActorsController",
+    "Method": "Delete",
+    "RelativePath": "api/actors/feladat16",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.ActorsController",
+    "Method": "Get",
+    "RelativePath": "api/actors/feladat9",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Farkas_Zolt\u00E1n_bckend.Models.Actor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.FilmtypesController",
+    "Method": "Get",
+    "RelativePath": "api/filmtypes/feladat11",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Farkas_Zolt\u00E1n_bckend.Models.FilmType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.MoviesController",
+    "Method": "Get",
+    "RelativePath": "api/movies/feladat10",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Farkas_Zolt\u00E1n_bckend.Models.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Farkas_Zolt\u00E1n_bckend.Controllers.MoviesController",
+    "Method": "Post",
+    "RelativePath": "api/movies/feladat13",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "movie",
+        "Type": "Farkas_Zolt\u00E1n_bckend.Models.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
